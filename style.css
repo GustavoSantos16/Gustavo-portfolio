@@ -91,6 +91,7 @@ main{
 .grettings p{
     font-weight: bold;
     line-height: 30px;
+    font-size: 20px;
 }
 
 .btn{
@@ -106,6 +107,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .btn img{
@@ -202,4 +204,70 @@ main{
 .more_info p{
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+#experience{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_xp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_xp h1{
+    font-size: 78px;
+    color: rebeccapurple;
+
+}
+
+.header_xp h4{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+hr{
+    width: 100%;
+    height: 8px;
+    margin: 20px 0px;
+    background-color: rebeccapurple;
+}
+
+.xp_flex{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.company_name{
+    font-size: 22px;
+}
+
+.date{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.job_position{
+    font-size: 22px;
+    color: rebeccapurple;
+}
+
+.job_description{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.techs{
+    font-size: 18px;
+    font-weight: 500;
+    color: darkcyan;
+    margin-top: 20px;
 }
