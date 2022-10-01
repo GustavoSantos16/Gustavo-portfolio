@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html, body{
+    height:100%;
+    background-color: aliceblue;
+}
+
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color:#acc; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 24px;
+    height: 24px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+#photo-grettings{
+    width: 100%;
+    height: 800px;
+    margin: 0px auto;
+    margin-top: 30px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-content{
+    width: 50%;
+    height: auto;
+    padding-left: 15%;
+}
+
+.right-content{
+    width: 50%;
+    height: auto;
+}
+
+.gustavo-image{
+    width: 100%;
+    height: 600px;
+    padding: 0px 70px;
+}
+
+.gustavo-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.grettings{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grettings h1{
+    line-height: 118px;
+    width: 420px;
+    font-size: 110px;
+}
+
+.grettings p{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.btn{
+    border: none;
+    height: 50px;
+    width: fit-content;
+    padding: 0px 70px;
+    border-radius:10px;
+    background-color: darkcyan;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+#basic-info{
+    width: 100%;
+    height: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+
+.personal_data{
+    width:fit-content;
+    padding: 20px;
+    padding-right: 80px;
+    height: auto;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rebeccapurple;
+}
+
+.personal_data span{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.personal_data strong{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.social_network{
+    display: flex;
+}
+
+.social_network a{
+    text-decoration: none;
+}
+
+.social_network img {
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+}
+
+.statistics{
+    width: 100%;
+    height: auto;
+
+}
+
+.grid{
+    display: grid;
+    row-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid div{
+
+}
+
+.grid div strong{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rebeccapurple;
+}
+.grid div h1{
+    font-size: 78px;
+    font-weight: bolder;
+    color: darkcyan;
+}
+
+.more_info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.more_info h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.more_info p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
