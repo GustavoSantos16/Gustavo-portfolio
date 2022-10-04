@@ -10,6 +10,7 @@
 }
 html, body{
     height:100%;
+    width: 100%;
     background-color: aliceblue;
 }
 
@@ -19,7 +20,8 @@ section{
 
 .container{
     width: 1200px;
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     margin: 0px auto;
     /* border: 1px solid red; */
 }
@@ -320,7 +322,8 @@ hr{
     height: 128px;
     margin:auto;
     border-radius: 50%;
-    border: 14px solid darkcyan;
+    border: 10px solid darkcyan;
+    object-fit: cover;
 }
 
 .phrase{
@@ -332,9 +335,99 @@ hr{
 
 .phrase_block strong{
      font-size: 20px;
+     font-style: italic;
 }
 .phrase_block span{
     color: #333;
     font-size: 16px;
     margin-bottom: 40px;
+}
+
+#insta-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 300px;
+}
+
+.block_dynamic{
+    width: 60%;
+    left:20%;
+    height: 1050px;
+    margin:auto;
+    border-radius: 40px;
+    margin-top: -120px;
+    background-color: darkcyan;
+    position: absolute;
+}
+
+.grid-instagram{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    z-index: 99;
+    position: relative;
+}
+
+.image{
+    aspect-ratio : 1 / 1;
+    z-index: 99;
+    
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-instagram .message{
+    width: 450px;
+    height: auto;
+    background-color: #fff;
+    z-index: 999;
+    right: -50px;
+    margin-top: 1000px;
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-instagram .message h1{
+    color: rebeccapurple;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.grid-instagram .message p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.box-link{
+    margin: 10px 0px 30px 0px;
+    display: flex; align-items: center;
+}
+
+.box-link a, .box-link a:active{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    margin-top: 500px;
+    /* position: absolute; */
 }
