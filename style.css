@@ -114,6 +114,7 @@ main{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn img{
@@ -247,6 +248,7 @@ hr{
 }
 
 .xp_flex{
+    width: 100%;
     display: flex;
     align-items: flex-start;
     margin-bottom: 80px;
@@ -272,10 +274,15 @@ hr{
 }
 
 .techs{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: darkcyan;
     margin-top: 20px;
+}
+
+.techs span{
+    color: rebeccapurple;
+    font-weight: bold;
 }
 
 .background{
@@ -429,5 +436,8 @@ footer{
     height: 100px;
     background-color: #000;
     margin-top: 500px;
-    /* position: absolute; */
+    color: #fff;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
 }
