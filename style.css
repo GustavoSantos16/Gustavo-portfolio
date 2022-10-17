@@ -354,7 +354,7 @@ hr{
     width: 100%;
     height: auto;
     position: relative;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .block_dynamic{
@@ -429,6 +429,13 @@ hr{
     text-decoration: none;
     color: #000;
     text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
 }
 
 footer{

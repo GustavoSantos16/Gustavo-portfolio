@@ -7,28 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Santos</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/ninja.png">
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <h1>Bem vindo</h1>
-            <nav>
+        <!-- <header>
+            <h1 style="margin: auto">Seja Bem vindo!</h1>
+           <nav>
                 <img src="assets/menu.png" alt="Menu">
             </nav>
-        </header>
+        </header> -->
         <main>
             <section id="photo-grettings">
                 <div class="left-content">
                     <div class="grettings">
                         <h1>Olá,<br> Eu sou Gustavo</h1>
-                        <p>Lorem consequuntur praesentium dolores, itaque perferendis pariatur porro unde voluptas
-                            nde nihil laudantium quos quisquam.</p>
+                        <p>Programador desde 2017 atuando em projetos para pequenas, médias e grandes empresas.</p>
                         <br><br>
-                        <button class="btn">
-                            <span>BAIXAR CV</span>
-                            <img src="assets/download.png" alt="">
-                        </button>
+                        <a href="assets/gustavo-resume.pdf" target="_blank">
+                            <button class="btn">
+                                <span>BAIXAR CV</span>
+                                <img src="assets/download.png" alt="">
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div class="right-content">
@@ -99,12 +101,14 @@
                         </div>
 
                         <div class="more_info">
-                            <h1>Lorem ipsum title</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perspiciatis assumenda vero cupiditate magni libero neque voluptates odio, debitis iste sequi, eveniet distinctio voluptate explicabo nam praesentium! Doloremque, rem natus.</p>
-                            <button class="btn">
-                                <span>BAIXAR CV</span>
-                                <img src="assets/download.png" alt="">
-                            </button>
+                            <h1>Meus Projetos</h1>
+                            <p>Nos poucos anos de experiência como desenvolvedor atuei em diversos projetos importantes dentre eles: Habibs, Band Play, B4waste, Órigo, etc...</p>
+                            <a href="https://www.linkedin.com/in/gustavo-santos-98096a143/" target="_blank">
+                                <button class="btn">
+                                    <span>Linkedin</span>
+                                    <img src="assets/logotipo-do-linkedin.png" alt="">
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -113,9 +117,13 @@
             <section id="experience">
                 <div class="header_xp">
                     <h1>Experiências</h1>
-                    <h4>Lorem ipsum dolor,Lorem ipsum dolor Lorem ipsum dolor,Lorem ipsum dolor<br>
-                        Lorem ipsum dolorLorem ipsum dolor 
+                    <h4>Segue abaixo algumas das minhas experiencias como desenvolvedor<br>
+                        <span id="data-xp"></span> 
                     </h4>
+                    <script>
+                        const date = new Date();
+                        document.querySelector("#data-xp").append("2018 - "+ date.getFullYear())
+                    </script>
                 </div>
               
                 <hr>
@@ -184,14 +192,16 @@
                     </div>
                 </div>
 
-                <button class="btn">
-                   <span>Contate-me</span>
-                </button>
+                <a href="mailto:gustavo.santos.dev99@gmail.com" target="_blank">
+                    <button class="btn">
+                       <span>Entre em contato</span>
+                    </button>
+                </a>
               
 
             </section>
 
-            <section>
+            <!-- <section>
                 <div class="background">
                     <div class="phrase_block">
                         <div class="header_block">
@@ -206,7 +216,7 @@
                             <span>Programador</span>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section id="insta-section">
 
@@ -241,26 +251,23 @@
                     <div class="message">
                         <h1>Meu Instagram</h1>
                         <p>
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                            Lorem ipsum dolor sit amet,
-                         eaque vel, ipsa cumque aliquid non?
+                            Em 2021 resolvi criar um perfil profissional no Instagram para influenciar e ajudar 
+                            pessoas a entrarem no mundo da programação, 
+                            nesta página posto conteúdo diario sobre tecnologia, games, programação e muito mais.
                         </p>
 
                         <div class="box-link">
-                            <p>Acesse agora:</p>
-                            <a href="">Instagram</a>
+                            <p>Caso tenha interesse, acesse&nbsp;</p>
+                            <a href="https://www.instagram.com/gustavosantos.js/"> aqui</a>
                         </div>
 
-                        <button class="btn">
-                            <span>Saiba Mais</span>
-                         </button>
+                        <a href="https://www.instagram.com/gustavosantos.js/" target="_blank">
+                            <button class="btn">
+                                <span>Saiba Mais</span>
+                            </button>
+                        </a>
+
+                      
                         
                     </div>
                 </div>
